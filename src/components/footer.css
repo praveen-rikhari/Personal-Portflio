@@ -1,0 +1,246 @@
+.footer {
+    position: relative;
+    width: 100%;
+    background: #00b3a7;
+    min-height: 120px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    margin: 10px 0 25px;
+    flex-wrap: wrap;
+}
+
+.social-icons a {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 13px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.15);
+}
+
+.social-icons .github:hover{
+    color: black;
+}
+
+.social-icons .twitter:hover{
+    color: #1da1f2;
+}
+
+.social-icons .linkedin:hover{
+    color: #0077b5;
+}
+.social-icons .instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    border-radius: 20%;
+    color:transparent;
+}
+ 
+.info {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    padding: 0 25px;
+    margin: 15px 0 8px;
+    border-right: 2px solid #e8e8e8
+}
+
+.info-box:last-child {
+    border-right: none;
+}
+
+.info-box i {
+    color: #00b3a7;
+    padding: 10px;
+    margin-right: 15px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info-box span {
+    font-weight: bolder;
+    color: #fff;
+}
+
+.line {
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background: #e8e8e8;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.imgur.com/ZAts69f.png");
+    background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+    z-index: 100;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+    z-index: 99;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+    z-index: 100;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+    z-index: 99;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 4px 8px;
+    border: 1px solid #000;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    cursor: pointer;
+    animation: moveUpDown 1.5s infinite;
+    transition:  0.3s;
+    z-index: 1000;
+}
+
+.scroll-to-top i{
+    color:#000;
+}
+
+.scroll-to-top:hover {
+    background-color: #ededed;
+}
+
+@media (max-width: 1025px) {
+    .info {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-box {
+        margin-bottom: 15px;
+    }
+
+    .info-box:nth-child(2) {
+        border-right: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .info {
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .info-box {
+        margin-bottom: 15px;
+    }
+
+    .info-box:nth-child(1) {
+        border-right: none;
+    }
+
+    .scroll-to-top{
+        font-size: 25px;
+        padding: 4px 7px;
+    }
+}
+
+@media (max-width: 450px) {
+    .info-box {
+        padding: 0;
+    }
+
+    .info-box:nth-child(3) i {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .scroll-to-top{
+        font-size: 20px;
+        padding: 4px 6px;
+    }
+}

@@ -1,0 +1,159 @@
+.skills {
+    background-color: #f9f9f9;
+    padding: 140px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 50px;
+}
+
+h3 {
+    color: #00b3a7;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+h6 {
+    color: #2d2e32;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.24;
+    margin-bottom: 20px;
+}  
+
+.skills-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 350px;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.card-img {
+    margin: auto 0;
+    width: 350px;
+    height: auto;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    height: auto;
+    width: 700px;
+    padding: 20px;
+}
+
+.card-text h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #00b3a7;
+    margin: 0;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.card-text p {
+    color: #767676;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.card .card-text .skills-icon {
+    margin: 10px;
+    width: 60px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skills-icon:hover {
+    transform: scale(1.1);
+}
+
+.backend {
+    flex-direction: row-reverse;
+}
+
+/* RESPONSIVE CODE  */
+
+@media (max-width: 800px) {
+    .skills {
+        padding: 50px 0;
+    }
+
+    .card {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .card .backend {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .card-img {
+        margin: 0 auto;
+    }
+
+    .card-text {
+        height: auto;
+        width: auto;
+        padding: 20px;
+    }
+
+    .card .card-text .skills-icon {
+        width: 45px;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+    .card-img {
+        width: auto;
+    }
+
+    .card-img img{
+        width: 60%;
+    }
+
+    .card-text h1 {
+        font-size: 24px;
+    }
+
+    .card-text p {
+        font-size: 15px;
+    }
+}
