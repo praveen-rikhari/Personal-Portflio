@@ -15,14 +15,14 @@ const skillsData = [
     {
         cardClass: 'backend',
         title: 'Backend',
-        description: 'Skilled in server-side programming using technologies like Node.js, EJS, django and Express. Experience working with databases such as MongoDB, SupaBase.',
+        description: 'Skilled in server-side programming using technologies like Node.js, EJS, django and Express. Experience working with databases such as MongoDB, MySql, SupaBase.',
         techSrc: ['js', 'nodejs', 'express', 'mongo', 'mysql', 'supabase', 'django', 'go'],
         imageSrc: beImg,
     },
     {
         cardClass: 'others',
         title: 'Others',
-        description: 'Proficient in Git and GitHub, skilled in Blender for 3D design and animation, and quite hands on in C, C++, Java, with additional proficiency in Postman for API testing and development.',
+        description: 'Proficient in Git and GitHub, skilled in Blender for 3D design and animation, and quite hands on in C++, Typescript, Docker with additional proficiency in Postman for API testing and development.',
         techSrc: ['git', 'github', 'postman', 'docker', 'blender', 'md', 'ts', 'cpp', 'python'],
         imageSrc: othersImg,
 
