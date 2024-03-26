@@ -16,7 +16,7 @@ function Footer() {
                 <a href="https://github.com/praveen-rikhari" className='github' target="_blank" rel="noopener noreferrer">
                     <i className='bi bi-github'></i>
                 </a>
-                <a href="https://twitter.com/ParveenRikhari" className='twitter' target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/PraveenRikhari" className='twitter' target="_blank" rel="noopener noreferrer">
                     <i className='bi bi-twitter'></i>
                 </a>
                 <a href="https://www.linkedin.com/in/praveen-rikhari-9485a1288/" className='linkedin' target="_blank" rel="noopener noreferrer">
