@@ -5,7 +5,7 @@ import myCV from '../assets/myCV.pdf'
 import myImg1 from '../assets/myImg1.png'
 function Home() {
     const [text] = useTypewriter({
-        words: ['Parveen Rikhari', 'Web Developer', '3D-Artist', '3D-Animator'],
+        words: ['Parveen Rikhari', 'Web Developer', '3D-Artist'],
         loop: false,
         typeSpeed: 100,
         deleteSpeed: 60,
