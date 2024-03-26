@@ -9,26 +9,26 @@ const skillsData = [
         cardClass: 'frontend',
         title: 'Frontend',
         description: 'Experienced in HTML, CSS, JS responsive web design, UI and modern frameworks like ReactJS, Redux. Familiar with Bootstrap, Tailwind, and MaterialUI.',
-        techSrc: ['html', 'css', 'js', 'react', 'redux', 'styledcomponents', 'bootstrap', 'tailwind', 'mui'],
+        techSrc: ['html', 'css', 'js', 'react', 'nextjs', 'redux', 'styledcomponents', 'bootstrap', 'tailwind', 'mui'],
         imageSrc: feImg,
     },
     {
         cardClass: 'backend',
         title: 'Backend',
         description: 'Skilled in server-side programming using technologies like Node.js, EJS, django and Express. Experience working with databases such as MongoDB, SupaBase.',
-        techSrc: ['js', 'nodejs', 'express', 'mongo', 'supabase', 'django'],
+        techSrc: ['js', 'nodejs', 'express', 'mongo', 'mysql', 'supabase', 'django', 'go'],
         imageSrc: beImg,
     },
     {
         cardClass: 'others',
         title: 'Others',
         description: 'Proficient in Git and GitHub, skilled in Blender for 3D design and animation, and quite hands on in C, C++, Java, with additional proficiency in Postman for API testing and development.',
-        techSrc: ['git', 'github', 'postman', 'blender', 'c', 'cpp', 'python', 'java'],
+        techSrc: ['git', 'github', 'postman', 'docker', 'blender', 'md', 'ts', 'cpp', 'python'],
         imageSrc: othersImg,
 
     },
 ];
- 
+
 
 function Skills() {
     return (
