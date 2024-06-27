@@ -8,6 +8,13 @@ import cs4 from '../assets/projectImages/campSafari4.png';
 import cs5 from '../assets/projectImages/campSafari5.png';
 import cs6 from '../assets/projectImages/campSafari6.png';
 
+import sgo1 from '../assets/projectImages/speedyGo1.png';
+import sgo2 from '../assets/projectImages/speedyGo2.png';
+import sgo3 from '../assets/projectImages/speedyGo3.png';
+import sgo4 from '../assets/projectImages/speedyGo4.png';
+import sgo5 from '../assets/projectImages/speedyGo5.png';
+import sgo6 from '../assets/projectImages/speedyGo6.png';
+
 import b1 from '../assets/projectImages/blogger1.png';
 import b2 from '../assets/projectImages/blogger2.png';
 import b3 from '../assets/projectImages/blogger3.png';
@@ -36,11 +43,21 @@ const projectsData = [
     {
         title: 'CampSafari 🏕️',
         description: 'CampSafari is a web application for discovering , adding and reviewing campgrounds all over the world.',
-        technologies: ['NodeJS', 'Express', 'MongoDB'],
+        technologies: ['NodeJS', 'Express', 'MongoDB', 'MapBox'],
         liveLink: 'https://camp-safari.onrender.com',
         githubLink: 'https://github.com/praveen-rikhari/CampSafari',
         imagesSrc: [
             cs1,cs2,cs3,cs4,cs5,cs6
+        ],
+    },
+    {
+        title: 'SpeedyGO 🚕',
+        description: 'CampSafari is a web application for discovering , adding and reviewing campgrounds all over the world.',
+        technologies: ['NextJS', 'Clerk', 'Stripe', 'MapBox'],
+        liveLink: 'https://speedy-go.vercel.app',
+        githubLink: 'https://github.com/praveen-rikhari/Cab-Booking-App',
+        imagesSrc: [
+            sgo1,sgo2,sgo3,sgo4,sgo5,sgo6
         ],
     },
     {
