@@ -1,7 +1,7 @@
 import './home.css'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { Link } from 'react-scroll';
-import myCV from '../assets/myCV.pdf'
+import myCV from '../assets/Parveen-Rikhari-CV.pdf'
 import myImg1 from '../assets/myImg1.png'
 function Home() {
     const [text] = useTypewriter({
@@ -15,7 +15,7 @@ function Home() {
     const handleDownloadCV = () => {
         const link = document.createElement('a');
         link.href = myCV;
-        link.download = 'myCV.pdf';
+        link.download = 'Parveen-Rikhari-CV.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
