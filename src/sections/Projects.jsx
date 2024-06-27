@@ -52,7 +52,7 @@ const projectsData = [
     },
     {
         title: 'SpeedyGO 🚕',
-        description: 'CampSafari is a web application for discovering , adding and reviewing campgrounds all over the world.',
+        description: 'Speedy GO is a cab booking application that allows users to book rides conveniently. Created using Next Js, Clerk, Mapbox & Stripe.',
         technologies: ['NextJS', 'Clerk', 'Stripe', 'MapBox'],
         liveLink: 'https://speedy-go.vercel.app',
         githubLink: 'https://github.com/praveen-rikhari/Cab-Booking-App',
