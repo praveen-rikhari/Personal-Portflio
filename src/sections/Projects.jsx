@@ -8,12 +8,10 @@ import cs4 from '../assets/projectImages/campSafari4.png';
 import cs5 from '../assets/projectImages/campSafari5.png';
 import cs6 from '../assets/projectImages/campSafari6.png';
 
-import sgo1 from '../assets/projectImages/speedyGo1.png';
-import sgo2 from '../assets/projectImages/speedyGo2.png';
-import sgo3 from '../assets/projectImages/speedyGo3.png';
-import sgo4 from '../assets/projectImages/speedyGo4.png';
-import sgo5 from '../assets/projectImages/speedyGo5.png';
-import sgo6 from '../assets/projectImages/speedyGo6.png';
+import ub1 from '../assets/projectImages/uiBazar1.png';
+import ub2 from '../assets/projectImages/uiBazar2.png';
+import ub3 from '../assets/projectImages/uiBazar3.png';
+import ub4 from '../assets/projectImages/uiBazar4.png';
 
 import b1 from '../assets/projectImages/blogger1.png';
 import b2 from '../assets/projectImages/blogger2.png';
@@ -51,13 +49,13 @@ const projectsData = [
         ],
     },
     {
-        title: 'SpeedyGO 🚕',
-        description: 'Speedy GO is a cab booking application that allows users to book rides conveniently. Created using Next Js, Clerk, Mapbox & Stripe.',
-        technologies: ['NextJS', 'Clerk', 'Stripe', 'MapBox'],
-        liveLink: 'https://speedy-go.vercel.app',
-        githubLink: 'https://github.com/praveen-rikhari/Cab-Booking-App',
+        title: 'Ui-Bazar',
+        description: 'UI-Bazar is a dynamic platform, enabling users to discover, create, & share HTML & CSS UI snippets with an intuitive interface, it simplifies exploring and managing a wide range of UI components for your projects.',
+        technologies: ['NextJS', 'Clerk', 'MongoDB', 'NodeJs'],
+        liveLink: 'https://ui-bazar.vercel.app/',
+        githubLink: 'https://github.com/praveen-rikhari/UI-Bazar/',
         imagesSrc: [
-            sgo1,sgo2,sgo3,sgo4,sgo5,sgo6
+            ub1,ub2,ub3,ub4
         ],
     },
     {
