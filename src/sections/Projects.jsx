@@ -32,10 +32,12 @@ import tb3 from '../assets/projectImages/tastyBites3.png';
 import tb4 from '../assets/projectImages/tastyBites4.png';
 import tb5 from '../assets/projectImages/tastyBites5.png';
 
-import cd1 from '../assets/projectImages/cryptoDash1.png';
-import cd2 from '../assets/projectImages/cryptoDash2.png';
-import cd3 from '../assets/projectImages/cryptoDash3.png';
-import cd4 from '../assets/projectImages/cryptoDash4.png';
+import lv1 from '../assets/projectImages/LogoVerse1.png';
+import lv2 from '../assets/projectImages/LogoVerse2.png';
+import lv3 from '../assets/projectImages/LogoVerse3.png';
+import lv4 from '../assets/projectImages/LogoVerse4.png';
+import lv5 from '../assets/projectImages/LogoVerse5.png';
+import lv6 from '../assets/projectImages/LogoVerse6.png';
 
 const projectsData = [
     {
@@ -45,7 +47,7 @@ const projectsData = [
         liveLink: 'https://camp-safari.onrender.com',
         githubLink: 'https://github.com/praveen-rikhari/CampSafari',
         imagesSrc: [
-            cs1,cs2,cs3,cs4,cs5,cs6
+            cs1, cs2, cs3, cs4, cs5, cs6
         ],
     },
     {
@@ -55,7 +57,17 @@ const projectsData = [
         liveLink: 'https://ui-bazar.vercel.app/',
         githubLink: 'https://github.com/praveen-rikhari/UI-Bazar/',
         imagesSrc: [
-            ub1,ub2,ub3,ub4
+            ub1, ub2, ub3, ub4
+        ],
+    },
+    {
+        title: 'LogoVerse 🪄',
+        description: 'LogoVerse is an AI-powered application that helps users generate custom logos effortlessly using advanced AI technology.',
+        technologies: ['Next Js', 'Gemini & Flux API', 'FireBase'],
+        liveLink: 'https://logo-verse.vercel.app/',
+        githubLink: 'https://github.com/praveen-rikhari/LogoVerse/',
+        imagesSrc: [
+            lv1, lv2, lv3, lv4, lv5, lv6
         ],
     },
     {
@@ -65,7 +77,7 @@ const projectsData = [
         liveLink: 'https://blogger-frontend-tm4i.onrender.com',
         githubLink: 'https://github.com/praveen-rikhari/MERN_Blog_App',
         imagesSrc: [
-            b1,b2,b3,b4,b5,b6
+            b1, b2, b3, b4, b5, b6
         ],
     },
     {
@@ -75,7 +87,7 @@ const projectsData = [
         liveLink: 'https://factual-hub-parveen.netlify.app/',
         githubLink: 'https://github.com/praveen-rikhari/Factual-Hub',
         imagesSrc: [
-            fh1,fh2,fh3,fh4,fh5
+            fh1, fh2, fh3, fh4, fh5
         ],
     },
     {
@@ -85,17 +97,7 @@ const projectsData = [
         liveLink: 'https://tasty-bites-parveen.netlify.app/',
         githubLink: 'https://github.com/praveen-rikhari/React-Recipe-App',
         imagesSrc: [
-            tb1,tb2,tb3,tb4,tb5
-        ],
-    },
-    {
-        title: 'CryptoDash 🪙',
-        description: 'CryptoDash is a crypto web app that allows users to search for information & real-time updates about various cryptocurrencies.',
-        technologies: ['React', 'Css', 'CoinGecko API'],
-        liveLink: 'https://crypto-dash-parveen.netlify.app/',
-        githubLink: 'https://github.com/praveen-rikhari/Crypto-Tracker-App',
-        imagesSrc: [
-            cd1,cd2,cd3,cd4
+            tb1, tb2, tb3, tb4, tb5
         ],
     },
 ];
